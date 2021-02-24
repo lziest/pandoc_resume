@@ -1,100 +1,126 @@
-Johnny Coder
+Zi Lin
 ============
 
 ----
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+>  不胜在己,可胜在敌。\
+>  To secure ourselves against defeat lies in our own hands,\
+>  but the opportunity of defeating the enemy is provided by the enemy himself.\
+> -- <cite>Sun Tzu, The Art of War</cite>
 
 ----
+
+Work Experience
+----------
+02/2018 - Now
+:    **Senior Software Engineer@Google** Sunnyvale, CA
+
+* Gmail backend storage hardening
+* DKIM key management
+
+03/2014 - 02/2018
+:    **Security Systems Engineer @Cloudflare Inc.** San Francisco, CA
+
+I built security infrastructure, including but not limited to:
+PKI/CA systems, secret management systems, key escrow system, and server side TLS optimization. 
+
+* Member of core developers of [cfssl](https://github.com/cloudflare/cfssl)
+  [cfssl-trust](https://github.com/cloudflare/cfssl_trust), [gokeyless](https://github.com/cloudflare/gokeyless) and [redoctober](https://github.com/cloudflare/redoctober).
+
+* Examples of TLS optimization: [Efficient global scale TLS session resumption](https://blog.cloudflare.com/tls-session-resumption-full-speed-and-secure/), [Maximized TLS support with SHA-1 deprecation](https://blog.cloudflare.com/tls-certificate-optimization-technical-details/) and [.NET TLS server implementation debugging](https://blog.cloudflare.com/microsoft-tls-downgrade-schannel-bug/).
+
+07/2012 - 03/2014
+:    **Software Engineer @ AWS Identity & Access Management** Seattle, WA
+
+I was put in charge of several critical IAM components:
+
+* AWS DevPay (Decprecated and replaced by AWS Marketplace)
+
+* AWS IAM dashboard
+
+* AWS Sign-in system
+
+06/2008 - 08/2008
+:    **Summer internship @ Microsoft**  Redmond, WA
+
+I implemented MinBid APIs in Keyword Service Provider (KSP) platform of AdCenter
 
 Education
 ---------
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+2006-2012
+:   **PhD, Computer Science**; University of Minnesota, Twin Cites
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
+    *Thesis title: Toward Building Practical Privacy Enhancing Technologies*
 
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
+    *Advisor: Nicholas J. Hopper*
 
-    *Minor: Awesomeology*
+2002-2006
+:   **BSc, Computer Science and Engineering**; Zhejiang University (China)
 
-Experience
-----------
-
-**Your Most Recent Work Experience:**
-
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
-
-* First item
-
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
-
-**That Other Job You Had**
-
-Also with a short description.
+    *Honor Graudate*
+    
+    *Exchange program graduate of Simon Fraser University in Vancouver, Canada*
 
 Technical Experience
 --------------------
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+Security
+:   I believe strongly in building verifiable and provable security systems.
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
+    * Everything about Transport Layer Security and HTTPS.
+    * Kernel tracing with systemtap.
+    * Secret management systems with trust bootstrapping.
 
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
+Data Mining
+:   I played with data mining tools in an amateur setting.
+    * My bachelor thesis is on material classification in satellite multispectral images.
+    * I helped my wife to create a set of predicted protein 3D structures, in which she was
+      able to pick one that leads to a breakthrough on finding functional crucial amino acids.
+    * I conducted some Support Vector Machine kernel function research in disease prediction with protein sequence SNP data only.
+
 
 Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+:   Fluent in **Go, C/C++, Java, and Lua** 
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
+:   Experienced in **Javascript, Perl, Ruby and Python**: I can understand and modify codes in them, but
+    which I probably wouldn't use in whiteboard interview sessions.
 
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
+:   Briefly exposed to **Lisp, Prolog, and Haskell**: I used them in small course projects.
 
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
+:   My first programming language is **Pascal**
 
-[ref]: https://github.com/githubuser/superlongprojectname
+Academia Activities
+----------------------------------------
+* Publication:
+     * “Jack: Scalable Accumulator-Based Nymble System,” Workshop on Privacy in the Electronic Society
+November 2010.
 
-Extra Section, Call it Whatever You Want
+     * “Efficient Private Proximity Testing with GSM Location Sketches”, Financial Cryptography Feburary 2012
+
+     * “New Attacks on Timing-based New Flow Watermarks”, USENIX Security Symposium August 2012
+   
+* Served as external reviewers for Journal of Computer Security
+
+* Served as external reviewers for the following conferences and workshops: Financial Cryptog-
+raphy, Privacy Enhancing Technologies Symposium, International Conference on Distributed Computing Systems, ACM Conference on Computer and Communications Security, Workshop
+on Privacy in the Electronic Society
+
+Miscellaneous
 ----------------------------------------
 
 * Human Languages:
 
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
+     * English
+     * Chinese (native speaker)
+     * Learning Spanish
 
-* Random tidbit
+* Recovering programming contest participant, 2-time ACM/ICPC world finalist
 
-* Other sort of impressive-sounding thing you did
+* Permanent resident of the U.S.
 
 ----
 
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+> <zilincs@gmail.com> • github @lziest • twitter @lziest • +1 (612)245-7472
+
+> 18718 Walnut Rd, Castro Valley, CA 94546
