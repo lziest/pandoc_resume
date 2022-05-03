@@ -13,8 +13,10 @@ Zi Lin
 Work Experience
 ----------
 02/2018 - Now
-:    **Senior Software Engineer@Google** Sunnyvale, CA
+:    **Senior Software Engineer@Google** Mountain View, CA
 
+* ChromeOS user authentication
+* ChromeOS sandboxing toolkit
 * Gmail backend storage hardening
 * DKIM key management
 
